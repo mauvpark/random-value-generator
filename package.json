@@ -1,0 +1,27 @@
+{
+  "name": "random-value-generator",
+  "version": "1.0.0",
+  "description": "You could pick a value from an array randomly.",
+  "main": "index.js",
+   "types": "./index.d.ts",
+  "scripts": {},
+  "keywords": [
+    "random",
+    "generator",
+    "value",
+    "color-picking",
+    "pick"
+  ],
+  "author": {
+    "name": "mauvpark",
+    "email": "mauvpark@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mauvpark/random-value-generator"
+  },
+  "bugs": {
+    "url": "https://github.com/mauvpark/random-value-generator/issues"
+  },
+  "license": "MIT"
+}
