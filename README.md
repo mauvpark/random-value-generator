@@ -2,7 +2,7 @@
 
 [![GitHub license](https://img.shields.io/github/license/mauvpark/random-value-generator)](https://github.com/mauvpark/random-value-generator/blob/main/LICENSE)
 
-![GitHub package.json version](https://img.shields.io/github/package-json/v/mauvpark/random-value-generator)
+![npm](https://img.shields.io/npm/v/random-serial-value-generator)
 
 ## Description
 
