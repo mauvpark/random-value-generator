@@ -1,14 +1,16 @@
 {
-  "name": "random-value-generator",
-  "version": "1.0.0",
+  "name": "random-serial-value-generator",
+  "version": "1.0.1",
   "description": "You could pick a value from an array randomly.",
   "main": "index.js",
-   "types": "./index.d.ts",
+  "types": "./index.d.ts",
+  "private": false,
   "scripts": {},
   "keywords": [
     "random",
     "generator",
     "value",
+    "serial",
     "color-picking",
     "pick"
   ],

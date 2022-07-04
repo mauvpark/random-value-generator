@@ -1,4 +1,4 @@
-# random-value-generator
+# random-serial-value-generator
 
 [![GitHub license](https://img.shields.io/github/license/mauvpark/random-value-generator)](https://github.com/mauvpark/random-value-generator/blob/main/LICENSE)
 
@@ -22,7 +22,7 @@ expo install random-value-generator
 ## Example
 
 ```js
-import { RandomValueGenerator } from "random-value-generator";
+import { RandomValueGenerator } from "random-serial-value-generator";
 
 function example () {
     const randomGenerator = new RandomValueGenerator();
