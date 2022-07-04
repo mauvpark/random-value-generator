@@ -12,11 +12,11 @@ This library generates a value randomly or you could get each value serially. Al
 
 ```
 // npm
-npm install random-value-generator
+npm install random-serial-value-generator
 // yarn
-yarn add random-value-generator
+yarn add random-serial-value-generator
 // expo
-expo install random-value-generator
+expo install random-serial-value-generator
 ```
 
 ## Example

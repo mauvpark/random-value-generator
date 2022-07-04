@@ -1,6 +1,6 @@
 {
   "name": "random-serial-value-generator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "You could pick a value from an array randomly.",
   "main": "index.js",
   "types": "./index.d.ts",
