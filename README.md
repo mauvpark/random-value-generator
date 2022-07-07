@@ -29,19 +29,28 @@ function example () {
     // Random value
     randomGenerator.generate(["white", "black", "orange"], true); // returns a value like "black", "white", "black", "orange" etc... randomly
     // Serial value
-    randomGenerator.generate(["white", "black", "orange"], false); // returns a value "white", "black", "orange" serially
+    randomGenerator.generate(["white", "black", "orange"], false); // returns a value "white", "black", "orange", "white", "black", "orange" .... serially
 }
 
 // USE CASE
 // This method is going to generate random backgroundColor each value of the list.
 function component () {
     const randomGenerator = new RandomValueGenerator();
-    const list = ["cat", "lion", "dog"];
+    const list = ["cat", "lion", "dog", "rabbit"];
 
     return (
         <div>
             {list.map((v,i) => 
-                <div key={i} style={{backgroundColor: randomGenerator.generate(["white", "black", "orange"], true);}}>{v}</div>)}
+                <div key={i} style={{backgroundColor: randomGenerator.generate(["white", "black", "orange"], true);}}>
+                    {v}
+                </div>
+            )}
+            /* Expected output: "cat": "white", "lion": "black", "dog": "orange", "rabbit": "white" */
+            {list.map((v,i) => 
+                <div key={i} style={{backgroundColor: randomGenerator.generate(["white", "black", "orange"], false);}}>
+                    {v}
+                </div>
+            )}
         </div>
     );
 }
